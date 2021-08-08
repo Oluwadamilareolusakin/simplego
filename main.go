@@ -1,7 +1,20 @@
+// package main
+
+// import "github.com/oluwadamilareolusakin/calculator/operations"
+
+// func main() {
+//   operations.AdditionWithSteps(1, 2, 3, 4, 5)
+// }
+
 package main
 
-import "github.com/oluwadamilareolusakin/calculator/operations"
+import (
+	"fmt"
+	"net"
+)
 
 func main() {
-  operations.AdditionWithSteps(1, 2, 3, 4, 5)
-}
+	iprecords, _ := net.LookupMX("fixus.com")
+
+		fmt.Println(*iprecords[0])
+	}
